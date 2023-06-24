@@ -7,8 +7,6 @@ import'./styles/global.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './pages/Home'
-import UseCallback from './pages/UseCallback';
-
 
 import router from './routes/router';
 

@@ -14,6 +14,18 @@ export default function NavBar() {
       <Link to='useMemo'>
         useMemo
       </Link>
+      <Link to='useRef'>
+        useRef
+      </Link>
+      <Link to='useReducer'>
+        useReducer
+      </Link>
+      <Link to='useLayout'>
+        useLayout
+      </Link>
+      <Link to='useImperative'>
+        useImperative
+      </Link>
     </Nav>
   )
 }

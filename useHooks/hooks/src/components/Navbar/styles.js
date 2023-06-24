@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     padding: 20px;
     font-size: 2rem;
     text-decoration: none;
-    width: 200px;
+    width: 300px;
     text-align: center;
     color: white;
     border-radius: 20px;
