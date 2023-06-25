@@ -7,7 +7,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'raw.githubsercontent.com',
+        hostname: 'raw.githubusercontent.com',
         port: '',
         pathname: '/CaioCeretta/dave-blogposts/main/images/**',
       },
