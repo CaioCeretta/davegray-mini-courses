@@ -8,24 +8,28 @@ export default function NavBar() {
       <Link to={'/'}>
         Home
       </Link>
-      <Link to='useCallback'>
+      <Link to='hooks/useCallback'>
         useCallback
       </Link>
-      <Link to='useMemo'>
+      <Link to='hooks/useMemo'>
         useMemo
       </Link>
-      <Link to='useRef'>
+      <Link to='hooks/useRef'>
         useRef
       </Link>
-      <Link to='useReducer'>
+      <Link to='hooks/useReducer'>
         useReducer
       </Link>
-      <Link to='useLayout'>
+      <Link to='hooks/useLayout'>
         useLayout
       </Link>
-      <Link to='useImperative'>
+      <Link to='hooks/useImperative'>
         useImperative
       </Link>
+      <Link to='hooks/useContext'>
+        useContext
+      </Link>
+      
     </Nav>
   )
 }

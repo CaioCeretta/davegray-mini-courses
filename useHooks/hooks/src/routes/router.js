@@ -7,6 +7,7 @@ import Reducer from "../pages/useReducer";
 import OtherReducerTutorial from "../pages/useReducer/OtherTutorial";
 import Layout from "../pages/useLayout";
 import Imperative from "../pages/useImperative";
+import Context from "../pages/useContext";
 
 const router = createBrowserRouter([
   {
@@ -14,33 +15,37 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: 'useCallback',
+    path: 'hooks/useCallback',
     element: <Callback />
   },
   {
-    path: 'useMemo',
+    path: 'hooks/useMemo',
     element: <Memo />
   },
   {
-    path: 'useRef',
+    path: 'hooks/useRef',
     element: <Ref />
   },
   {
-    path: 'useReducer',
+    path: 'hooks/useReducer',
     element: <Reducer />
   },
   {
-    path: 'useReducer2',
+    path: 'hooks/useReducer2',
     element: <OtherReducerTutorial />
   },
   {
-    path: 'useLayout',
+    path: 'hooks/useLayout',
     element: <Layout />
   },
   {
-    path: 'useImperative',
+    path: 'hooks/useImperative',
     element: <Imperative />
   },
+  {
+    path: 'hooks/useContext',
+    element: <Context />
+  }
 
 
 ])
