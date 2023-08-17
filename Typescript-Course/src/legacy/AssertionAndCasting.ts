@@ -1,9 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import './App.css'
 
 
-function App() {
 
   type One = string
   type Two = string | number
@@ -66,12 +64,3 @@ function App() {
 
   const nextImg = document.getElementById('#img');
 
-  
-
-  return (
-    <>
-    </>
-  )
-}
-
-export default App

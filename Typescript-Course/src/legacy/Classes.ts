@@ -1,9 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import './App.css'
-
-
-function App() {
 
   class Coder {
 
@@ -146,10 +142,4 @@ function App() {
 
   console.log(myBands.data)
 
-  return (
-    <>
-    </>
-  )
-}
 
-export default App

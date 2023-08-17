@@ -1,9 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import './App.css'
 
-
-function App() {
 
   //Index signatures are useful when you are creating an object but do not know the exact name of the object keys but you do know the shape of it, and you can declare the type of the keys and the types of the values
 
@@ -138,10 +135,4 @@ function App() {
     console.log(monthlyIncomes[revenue as keyof Incomes])
   }
 
-  return (
-    <>
-    </>
-  )
-}
 
-export default App

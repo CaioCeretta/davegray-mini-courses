@@ -1,6 +1,3 @@
-import './App.css'
-
-function App() {
   // let username = 'Caio';
   // console.log(username);
   
@@ -147,12 +144,3 @@ function App() {
 
 
 
-
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default App
