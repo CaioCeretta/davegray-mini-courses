@@ -45,7 +45,6 @@ const reducer = (state: CartStateType, action: ReducerAction): CartStateType => 
       if(!action.payload) {
         throw new Error('Missing payload in REMOVE action')
       }
-
       const {sku} = action.payload
 
       const filteredCart: CartItemType[] = state.cart.filter(item => item.sku !== sku)
@@ -134,6 +133,10 @@ type ChildrenType = {
 
 export const CartProvider = ({children}: ChildrenType ):ReactElement => {
   return (
-    <CartContext.Provider value={useCartContext(initCartState)}
+    <CartContext.Provider value={useCartContext(initCartState)}>
+      {children}
+    </CartContext.Provider>
   )
 }
+
+export default CartContext
